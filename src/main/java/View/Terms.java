@@ -41,7 +41,7 @@ public class Terms extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        AgreeButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(700, 702));
@@ -105,15 +105,15 @@ public class Terms extends javax.swing.JFrame {
         });
         jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, -1, -1));
 
-        jButton1.setFont(new java.awt.Font("SimSun-ExtB", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 153, 102));
-        jButton1.setText("I've read the agreement!");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        AgreeButton.setFont(new java.awt.Font("SimSun-ExtB", 1, 18)); // NOI18N
+        AgreeButton.setForeground(new java.awt.Color(255, 153, 102));
+        AgreeButton.setText("I've read the agreement!");
+        AgreeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                AgreeButtonActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 540, -1, -1));
+        jPanel1.add(AgreeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 540, -1, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 700));
 
@@ -124,10 +124,10 @@ public class Terms extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel12MouseClicked
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void AgreeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AgreeButtonActionPerformed
         // TODO add your handling code here:
         this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_AgreeButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -168,7 +168,7 @@ public class Terms extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton AgreeButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
